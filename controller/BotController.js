@@ -16,7 +16,7 @@ Silahkan ketik "*Layanan*" untuk membuka menu.
 
   async sku(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterarngan Usaha (SKU)
+Persyaratan pembuatan Surat Keterangan Usaha (SKU)
 1. KTP
 2. Jenis Usaha
 3. Lama Usaha
@@ -28,7 +28,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
   
   async wiraswasta(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterarngan Wiraswasta
+Persyaratan pembuatan Surat Keterangan Wiraswasta
 1. KTP
 https://docs.google.com/forms/d/e/1FAIpQLSeFJGcm65V3gZzihGYuBy4DV4eFeg6i5QKTUqwHPtW-8JY7Sw/viewform
 Silahkan isi form diatas.
@@ -38,7 +38,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
 
   async domisili(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterarngan Domisili
+Persyaratan pembuatan Surat Keterangan Domisili
 1. KK/KTP
 2. Alamat
 https://docs.google.com/forms/d/e/1FAIpQLSfR6441n7MrukmKeE0lkV_SAWKqJPXqXaPDyuYVnhNFpPXA_A/viewform
@@ -49,7 +49,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
 
   async kelahiran(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterarngan Kelahiran
+Persyaratan pembuatan Surat Keterangan Kelahiran
 1. Kartu Keluarga (KK)
 https://docs.google.com/forms/d/e/1FAIpQLSdLI6GGLi1SPXNBxzEPgYGCRFZjt4jLpSrW2shz-zUYZ_wTIw/viewform
 Silahkan isi form diatas.
@@ -59,7 +59,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
 
   async kematian(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterarngan Kematian
+Persyaratan pembuatan Surat Keterangan Kematian
 1. Kartu Keluarga (KK)
 https://docs.google.com/forms/d/e/1FAIpQLSfMHGUDraBEV3NBsykyZYJkypuWPp1pJQAJBDEeCCExh5qDzQ/viewform
 Silahkan isi form diatas.
