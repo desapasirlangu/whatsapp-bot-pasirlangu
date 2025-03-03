@@ -69,7 +69,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
 
   async belummenikah(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
-Persyaratan pembuatan Surat Keterangan Kematian
+Persyaratan pembuatan Surat Keterangan belum menikah
 1. Kartu Keluarga (KK)
 https://docs.google.com/forms/d/e/1FAIpQLSdZpSZg-xLohtpm1QTMJ4atR6V9MFuN1A8TFtw4AAJG8f9AzA/viewform
 Silahkan isi form diatas.
