@@ -81,7 +81,7 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
     return this.reply(`*Pelayanan Desa Pasirlangu*
 Persyaratan pembuatan Surat Keterangan Izin Rame Rame
 1. Kartu Keluarga (KK)
-https://docs.google.com/forms/d/14S4Yzl_-4QpzIvObDYNJqgBjv_o3MqNgPxXuTGu1R-E/preview
+https://docs.google.com/forms/d/e/1FAIpQLSe2WtiBAHT0sdQy1iDPYalJQQg99Wvfz8aVsMUgHDjG0DKOXg/viewform
 Silahkan isi form diatas.
 Jika sudah isi form, silahkan ketik "*Selesai*"
 `);
