@@ -3,7 +3,7 @@ const f = require("../utils/Formatter");
 
 module.exports = class BotController extends Controller {
   async menu(request) {
-    return Response.menu.fromArrayOfString([f("menu.sku"), f("menu.wiraswasta"), f("menu.domisili"), f("menu.kelahiran"), f("menu.kematian"), f("menu.belummenikah"), f("menu.pertanyaan")], f("intro", [request.name]), f("template.menu"));
+    return Response.menu.fromArrayOfString([f("menu.sku"), f("menu.wiraswasta"), f("menu.domisili"), f("menu.kelahiran"), f("menu.kematian"), f("menu.belummenikah"), f("menu.izinramerame"), f("menu.pertanyaan")], f("intro", [request.name]), f("template.menu"));
   }
 
   async greetings(request) {
@@ -70,6 +70,16 @@ Jika sudah isi form, silahkan ketik "*Selesai*"
   async belummenikah(request) {
     return this.reply(`*Pelayanan Desa Pasirlangu*
 Persyaratan pembuatan Surat Keterangan belum menikah
+1. Kartu Keluarga (KK)
+https://docs.google.com/forms/d/e/1FAIpQLSdZpSZg-xLohtpm1QTMJ4atR6V9MFuN1A8TFtw4AAJG8f9AzA/viewform
+Silahkan isi form diatas.
+Jika sudah isi form, silahkan ketik "*Selesai*"
+`);
+  }
+
+  async izinramerame(request) {
+    return this.reply(`*Pelayanan Desa Pasirlangu*
+Persyaratan pembuatan Surat Keterangan izin rame rame
 1. Kartu Keluarga (KK)
 https://docs.google.com/forms/d/e/1FAIpQLSdZpSZg-xLohtpm1QTMJ4atR6V9MFuN1A8TFtw4AAJG8f9AzA/viewform
 Silahkan isi form diatas.
