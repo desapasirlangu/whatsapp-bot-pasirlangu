@@ -16,6 +16,7 @@ router.menu(f("menu.domisili"), [BotController, "domisili"]);
 router.menu(f("menu.kelahiran"), [BotController, "kelahiran"]);
 router.menu(f("menu.kematian"), [BotController, "kematian"]);
 router.menu(f("menu.belummenikah"), [BotController, "belummenikah"]);
+router.menu(f("menu.izinramerame"), [BotController, "izinramerame"]);
 router.menu(f("menu.pertanyaan"), [BotController, "pertanyaan"]);
 router.keyword("Layanan", [BotController, "menu"]);
 router.keyword("selesai", [BotController, "selesai"]);
